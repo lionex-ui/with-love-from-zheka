@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="lib/nouislider.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/media.css">
+	<title>Real estate	investment in Bali</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__container">
+					<div class="header__top">
+						<div class="header__logo">
+							<img src="./src/img/header_logo.svg" alt="logo">
+						</div>
+						<div class="header__btn-call">
+							<button class="header__button-call" id="btn_call">Заказать звонок</button>
+						</div>
+					</div>
+					<div class="header__main">
+						<div class="header__topic">
+							<h1>Инвестиции<br>в недвижимость на Бали</h1>
+							<span>Виллы и апартаменты премиум-класса <span style="font-weight: 600; display: inline-block; opacity: 1">для жизни и инвестиций</span></span>
+						</div>
+						<div class="header__mouse">
+							<button id="mouse" style="background: none;"><img src="./src/img/header_icon-mouse.png" alt="mouse-icon"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__footer">
+				<div class="header__text">
+					<span>топ <span class="seven">7</span></span>
+					<span><b>ИНВЕСТИЦИОННЫХ ПРЕДЛОЖЕНИЙ</b></span>
+					<span class="dev">ОТ ВЕДУЩЕГО ДЕВЕЛОПЕРА MAGNUM ESTATE</span>
+				</div>
+				<div class="header__book">
+					<img src="./src/img/header_book.png" alt="book">
+				</div>
+				<div class="header__list">
+					<ul>
+						<li>Доходность</li>
+						<li><span>11-15% годовых</span></li>
+						<li>Рост стоимости</li>
+						<li><span>40-70%</span></li>
+						<li>Стоимость</li>
+						<li><span>от $240 000</span></li>
+					</ul>
+				</div>
+				<div class="header__slider">
+					<div class="slider__item">
+						<img src="./src/img/p3.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p1.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p2.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p4.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p5.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p6.jpg" alt="phtoto1">
+					</div>
+					<div class="slider__item">
+						<img src="./src/img/p7.jpg" alt="phtoto1">
+					</div>
+				</div>
+				<div class="header__btn-download">
+					<button class="header__button-download" id="btn_download">Скачать каталог</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__body">
+				<h3 class="main__topic"><b>ТОП-7 ПРЕДЛОЖЕНИЙ</b> ДЛЯ ЖИЗНИ И ИНВЕСТИЦИЙ</h3>
+				<div class="main__book">
+					<img src="./src/img/main_book.png" alt="book-photo">
+				</div>
+				<div class="main__questions">
+					<div class="questions__topic">
+						<div class="questions__ava">
+							<img src="./src/img/main_ava.png" alt="ava">
+						</div>
+						<p>Ответьте на несколько вопросов и мы<b>подберем для вас оптимальные предложения</b></p>
+					</div>
+					<div class="questions__numberOfQuestions">
+						<span>
+							<span id="numberQuestions">Вопрос 1 из 6</span>
+						</span>
+						<div class="progress-bar">
+							<div class="progress-bar-line">
+								<span id="progress"></span>
+							</div>
+						</div>
+					</div>
+					<div class="questions__question">
+						<div class="case" id="case1"> 
+							<span>Вы были на Бали?</span>
+							<form action="send">
+								<label>
+									<input type="radio" name="choice" value="yes">Да
+								</label>
+								<label>
+									<input type="radio" name="choice" value="no">Нет
+								</label>
+							</form>
+						</div>
+						<div class="case" id="case2"  style="display: none">
+							<span>У вас уже есть опыт инвестирования в зарубежную недвижимость?</span>
+							<form action="send">
+								<label>
+									<input type="radio" name="choice" value="yes">Да
+								</label>
+								<label>
+									<input type="radio" name="choice" value="no">Нет
+								</label>
+							</form>
+						</div>
+						<div class="case" id="case3"  style="display: none">
+							<span style="padding: 20px 0; max-width: 340px">Вы рассматриваете покупку с целью получения дохода?</span>
+							<form action="send" style="max-width: 530px; text-align: left">
+								<label style="margin: 8px 0">
+									<input type="radio" name="choice" value="yes">Да, только для дохода
+								</label>
+								<label style="margin: 8px 0">
+									<input type="radio" name="choice" value="no">Для личного проживания
+								</label>
+								<label style="margin: 8px 0">
+									<input type="radio" name="choice" value="yes/no">С целью дохода, но планирую приезжать отдыхать
+								</label>
+							</form>
+						</div>
+						<div class="case" id="case4"  style="display: none">
+							<span style="padding: 20px 0; max-width: 420px">Какой формат недвижимости более предпочтительный:</span>
+							<form action="send">
+								<label>
+									<input type="radio" name="choice" value="yes">Вилла
+								</label>
+								<label>
+									<input type="radio" name="choice" value="no">Апартаменты
+								</label>
+							</form>
+						</div>
+						<div class="case case5" id="case5"  style="display: none">
+							<span style="padding: 20px 0; max-width: 420px">В рамках какого бюджета вы рассматриваете недвижимость?</span>
+							<div id="rangeSlider"></div>
+							<div class="questions__price">
+								<div class="questions__price-min limit">50.000$</div>
+								<div class="questions__price-max limit">1.000.000$</div>
+
+							</div>
+						</div>
+						<div class="case" id="case6" style="display: none">
+							<span style="padding: 20px 0; max-width: 420px">Какая информация вам нужна <span style="font-weight: 300; padding: 5px 0 0 0;margin:0; font-size: 23px;">(несколько вариантов ответа):</span></span>
+							<form action="send" style="text-align: left; margin-left: -30px; font-size: 16px" >
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="1">Информация об инвестиционной<b> привлекательности Бали</b>
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="2">Информация о проекте
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="3">Формирование доходности
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="4">Управление: сервисы и стоимость
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="5">Документы на компанию
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="6">Процесс оформления недвижимости<b> на Бали</b>
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="7">Пример договора
+								</label>
+								<label style="margin: 8px 0;">
+									<input type="checkbox" name="choice" value="8">Хочу получить комплексную консультацию
+								</label>
+							</form>
+						</div>
+						<div class="case" id="case7" style="display: none">
+							<span style="padding: 20px 0; max-width: 530px">Оставьте Ваш номер WhatsApp и мы вышлем на него подходящие материалы</span>
+							<form action="send">
+								<span style="display: block; text-align: left; font-weight: 400; color: #000; font-size: 15.0315px; padding: 8px 0 8px 80px; margin: 0;">Имя</span>
+								<input style="display: inline-block; padding-left: 23px; width: 380px; border: 1px solid #08A0F5; height: 70px; border-radius: 8.7684px;" placeholder="Иван" type="text" name="name" maxlength="12" minlength="2">
+								<span style="display: block; text-align: left; font-weight: 400; color: #000; font-size: 15.0315px; padding: 15px 0 8px 80px; margin: 0;">Ваш номер телефона / WhatsApp</span>
+								<input style="display: inline-block; padding-left: 23px; width: 380px; border: 1px solid #08A0F5; height: 70px; border-radius: 8.7684px;" placeholder="8 999 999 99 99" type="tel" name="phone">
+							</form>
+						</div>
+					</div>
+					<div class="questions__buttons">
+						<div class="questions__btn-prev questions__btn">
+							<button class="questions__button-prev" id="btn_prev"><img src="./src/img/main_arrow-prev.svg" alt="arrow">Назад</button>
+						</div>
+						<div class="questions__btn-next questions__btn">
+							<button class="questions__button-next" id="btn_next">Далее<img src="./src/img/main_arrow.svg" alt="arrow"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer_body">
+					<div class="footer__logo">
+						<img src="./src/img/footer_logo.png" alt="logo">
+					</div>
+					<div class="footer__privacy">
+						<h4>Privacy policy</h4>
+						<div class="footer__blocks">
+							<span>Terms and Conditions of Booking Fee and Refunds</span>
+							<span>© MAGNUM ESTATE 2023</span>
+						</div>
+					</div>
+					<nav class="footer__nav">
+						<h4>Разделы сайта</h4>
+						<a href="">Главная</a>
+						<a href="">Проекты</a>
+					</nav>
+					<div class="footer__contacts">
+						<h4>Наши контакты</h4>
+						<span>Gg. Berlian, Kerobokan Kelod, Kec. Kuta Utara,</span>
+						<span>Kabupaten Badung, Bali 80361</span>
+						<span>+62-878-22-010-222</span>
+						<span>sales@magnumestate.pro</span>
+					</div>
+					<div class="footer__adaptive">
+						<span>+62-878-22-010-222</span>
+						<span>sales@magnum<br>estate.pro</span>
+						<span>© MAGNUM ESTATE 2023</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="modal">
+			<div class="modal__window">
+				<div class="modal__body">
+					<div class="close">
+						<img src="./src/img/close-outline.svg" alt="close">
+					</div>
+					<div class="modal__image">
+					</div>
+					<div class="modal__text"><p>Заполните форму, указав корректный номер WhatsApp, и мы пришлём вам каталог.</p></div>	
+					<form action="send">
+						<label>
+							<span>Имя</span>
+							<input type="text" maxlength="14" minlength="2" placeholder="Иван">
+						</label>
+						<label>
+							<span>Ваш E-mail</span>
+							<input type="email" maxlength="25" minlength="5" placeholder="ivanov@gmail.com">
+						</label>
+						<label>
+							<span>Номер телефона</span>
+							<input type="tel" maxlength="14" minlength="2" placeholder="99-999-9999">
+						</label>
+						<button><span>Получить каталог</span></button>
+					</form>
+				</div>
+			</div>
+			<div class="modal__overlay"></div>
+		</div>
+	</div>
+	<script src="lib/nouislider.min.js"></script>
+	<script src="js/range-slider.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="lib/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
